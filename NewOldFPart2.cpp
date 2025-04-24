@@ -19,7 +19,7 @@ int main() {
 
 	string headerfile;
 	getline(inputactualcontent, headerfile);
-	outputactualcontent << headerfile << ",Short Wait Time\n";
+	outputactualcontent << headerfile << ", wait time (least) \n";
 
 	double sumeruptioninterval = 0.0;
 	double sumwaitinginterval = 0.0;
