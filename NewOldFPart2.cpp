@@ -21,13 +21,15 @@ int main() {
 	getline(inputactualcontent, headerfile);
 	outputactualcontent << headerfile << ",Short Wait Time\n";
 
-	double eruptioninterval = 0.0;
-	double waitinginterval = 0.0;
-	char charactersymbol = ',';
-	int trackercounting = 0;
 	double sumeruptioninterval = 0.0;
 	double sumwaitinginterval = 0.0;
 
+	double eruptioninterval = 0.0;
+	int trackercounting = 0;
+	double waitinginterval = 0.0;
+	char charactersymbol = ',';
+	
+	
 
 	// ^^ variable declaration for the while loop to work 
 	while ((inputactualcontent >> eruptioninterval) && (inputactualcontent >> charactersymbol) && (inputactualcontent >> waitinginterval)) {
